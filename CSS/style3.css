@@ -1,0 +1,106 @@
+.main {
+    width: 99%;
+    margin-top: 0;
+}
+
+.topHeading {
+    text-align: left;
+    font-size: 2vw;
+    margin-left: 5%;
+    margin-bottom: 0;
+    margin-top: 15vh;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.middleHeading {
+    text-align: left;
+    font-size: 2vw;
+    margin-left: 5%;
+    margin-bottom: 0;
+    margin-top: 5vh;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Lucida Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapperBottom {
+    border: oldlace solid 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Lucida Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15vh;
+}
+
+.listHyde {
+    border: black solid 2px;
+    display: inline-block;
+    font-size: 1.5vw;
+    background-color: royalblue;
+    color: oldlace;
+}
+
+.listCoople {
+    border: black solid 2px;
+    display: inline-block;
+    font-size: 1.18vw;
+    background-color: royalblue;
+    color: oldlace;
+}
+
+.listMep {
+    border: black solid 2px;
+    display: inline-block;
+    font-size: 1.4vw;
+    background-color: royalblue;
+    color: oldlace;
+    padding-right: 16.7vw;
+}
+
+.mepFix {
+    padding-bottom: 5vh;
+}
+
+.listNuke {
+    border: black solid 2px;
+    display: inline-block;
+    font-size: 1.24vw;
+    background-color: royalblue;
+    color: oldlace;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+span {
+    border-left: black solid 3px;
+    font-size: 1.5vw;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.link {
+    border: black solid 2px;
+}
+
+.link:hover {
+    border: royalblue solid 2px;
+}
+
+.logo {
+    height: 100%;
+    width: 10vw;
+}

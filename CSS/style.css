@@ -1,0 +1,126 @@
+    body,
+    html {
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+        background-color: oldlace;
+        overflow: auto;
+        display: flexbox;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .containX {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 8vh;
+        background-color: royalblue;
+        position: fixed;
+    }
+    
+    .containY {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+    }
+    
+    .navelement {
+        text-decoration: none;
+        font-size: 1.3vw;
+        font-family: 'Lucida Sans', sans-serif;
+        color: black;
+        border: royalblue solid 2px;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: royalblue;
+    }
+    
+    .navelement:hover {
+        color: oldlace;
+        transition: 200ms;
+    }
+    
+    .active {
+        color: royalblue;
+        border: oldlace solid 2px;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: oldlace;
+        transition: 200ms;
+        text-decoration: none;
+    }
+    
+    .navelement.active:hover {
+        color: royalblue;
+        transition: 200ms;
+    }
+    
+    h1 {
+        text-align: center;
+        font-family: 'Lucida Sans', sans-serif;
+        margin-bottom: 0;
+        min-width: 1200px;
+    }
+    
+    footer {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 0;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Lucida Sans', sans-serif;
+        overflow: auto;
+        background-color: royalblue;
+        justify-content: baseline;
+    }
+    
+    #mail {
+        display: inline-block;
+        margin-right: 20%;
+        padding: 1% 1%;
+        font-family: 'Lucida Sans', sans-serif;
+        background-color: royalblue;
+        color: oldlace;
+        font-size: 1.4vw;
+        border: black solid 2px;
+        -webkit-transition: 200ms;
+        transition: 200ms;
+        outline: none;
+    }
+    
+    #tel {
+        display: inline-block;
+        padding: 1% 1%;
+        font-family: 'Lucida Sans', sans-serif;
+        font-size: 1.4vw;
+        background-color: royalblue;
+        color: oldlace;
+        border: black solid 2px;
+        -webkit-transition: 200ms;
+        transition: 200ms;
+        outline: none;
+    }
+    
+    #mail:hover {
+        background-color: oldlace;
+        color: royalblue;
+        border: black solid 2px;
+        transition: 200ms;
+    }
+    
+    #tel:hover {
+        background-color: oldlace;
+        color: royalblue;
+        border: black solid 2px;
+        transition: 200ms;
+    }
+    
+    footer a:active {
+        outline: none;
+        border: none;
+    }

@@ -1,0 +1,162 @@
+.main {
+    width: 99%;
+    margin-top: 0;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.buttonDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+button {
+    border: black solid 2px;
+    background-color: royalblue;
+    color: oldlace;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 1.3vw;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: oldlace;
+    color: royalblue;
+}
+
+button:active {
+    color: black;
+}
+
+.pressed {
+    border: black solid 2px;
+    background-color: oldlace;
+    color: royalblue;
+}
+
+#showTech {
+    margin-right: 5px;
+}
+
+
+/*Technical skills section*/
+
+.wrapperTech {
+    border: black solid 2px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    align-items: flex-start;
+    background-color: royalblue;
+    color: oldlace;
+    margin-top: 1vh;
+}
+
+
+/*list item separated into each section to make margin between li and img vary according to text length*/
+
+.liJava {
+    margin-left: 5px;
+    margin-right: 15vw;
+    align-self: flex-start;
+    list-style: square;
+    font-size: 1vw;
+}
+
+.liWebDev {
+    margin-left: 5px;
+    margin-right: 7.5vw;
+    align-self: flex-start;
+    list-style: square;
+    font-size: 1vw;
+}
+
+.liSQL {
+    margin-left: 5px;
+    margin-right: 2vw;
+    align-self: flex-start;
+    list-style: square;
+    font-size: 0.85vw;
+}
+
+.liSwift {
+    margin-left: 5px;
+    margin-right: 2.5vw;
+    align-self: flex-start;
+    list-style: square;
+    font-size: 1vw;
+}
+
+.liPython {
+    margin-left: 5px;
+    margin-right: 5.25vw;
+    align-self: flex-start;
+    list-style: square;
+    font-size: 1vw;
+}
+
+.liKanban {
+    margin-left: 5px;
+    margin-right: 10.8vw;
+    align-self: flex-start;
+    list-style: square;
+    font-size: 1vw;
+}
+
+img {
+    margin-right: 5px;
+    align-self: flex-end;
+    width: 2vw;
+    height: 100%;
+    margin-bottom: 0.9vh;
+    margin-top: 0.3vh;
+}
+
+
+/*img for web dev section separated because 3 img of different sizes*/
+
+.imgHTML {
+    width: 3vw;
+}
+
+.imgCSS {
+    width: 2vw;
+}
+
+.imgJS {
+    width: 4vw;
+}
+
+
+/*Transferrable skills section*/
+
+#trans {
+    display: none;
+}
+
+.wrapperTrans {
+    border: black solid 2px;
+    background-color: royalblue;
+    color: oldlace;
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 1vh;
+    border-bottom: black solid 4px;
+    font-size: 1.5vw;
+}
+
+p {
+    font-weight: 500;
+    font-size: 1vw;
+}

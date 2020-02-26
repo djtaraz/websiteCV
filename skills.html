@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/style4.css">
+    <script src="toggle.js"></script>
+    <script src="./selected.js"></script>
+    <script src="./selectedSkill.js"></script>
+    <title>IvanTaraszov/Skills</title>
+</head>
+
+<body>
+    <header>
+        <div class="containX">
+            <div class="containY">
+                <a class="navelement" href="./index.html">Overview</a>
+                <a class="navelement" href="./education.html">Education</a>
+                <a class="navelement" href="./jobs.html">Employment</a>
+                <a class="navelement active" href="./skills.html">Skills</a>
+                <a class="navelement" href="./projects.html">Projects</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="buttonDiv" id="buttonDiv">
+            <button class="buttonSkill" id="showTech" onclick="showTech()">Technical Skills</button>
+            <button class="buttonSkill" onclick="showTrans()">Transferrable Skills</button>
+        </div>
+
+        <div id="tech">
+            <div class="wrapperTech">
+                <ul>
+                    <li class="liJava">Programming in Java (2 years of learning and practice)</li>
+                </ul>
+                <img src="javalogo.png">
+            </div>
+            <div class="wrapperTech">
+                <ul>
+                    <li class="liWebDev">Web development with HTML/CSS/JS (1 year of learning and practice)</li>
+                </ul>
+                <img class="imgHTML" src="htmlogo.png">
+                <img class="imgCSS" src="csslogo.png">
+                <img class="imgJS" src="jslogo.png">
+            </div>
+            <div class="wrapperTech">
+                <ul>
+                    <li class="liSQL">Database creation and organisation with SQL (beginner level: few months of theory and practice)</li>
+                </ul>
+                <img src="sqlogo.png">
+            </div>
+            <div class="wrapperTech">
+                <ul>
+                    <li class="liSwift">Programming in Swift for iOS (beginner level: few months of theory and practice)</li>
+                </ul>
+                <img src="swiftlogo.png">
+            </div>
+            <div class="wrapperTech">
+                <ul>
+                    <li class="liPython">Programming in Python (beginner level: few months of theory and practice)</li>
+                </ul>
+                <img src="pythonlogo.png">
+            </div>
+            <div class="wrapperTech">
+                <ul>
+                    <li class="liKanban">Project organisation using Kanban software (general knowledge)</li>
+                </ul>
+                <img src="kanbanlogo.png">
+            </div>
+        </div>
+        <div id="trans">
+            <div class="wrapperTrans">
+                <h2>Communication skills</h2>
+                <p>Through part-time work as an Assistant Salesman and Hospitality Worker I have acquired the ability to confidently convey ideas and thoughts to the audience or customers to ensure results are achieved and customers are satisfied.</p>
+            </div>
+            <div class="wrapperTrans">
+                <h2>Fast learner</h2>
+                <p>I am known to pick up on ideas and information very quickly, meaning that if I was part of a company, I would be able to learn and execute tasks almost immediately that is given to me by a manager.</p>
+            </div>
+            <div class="wrapperTrans">
+                <h2>Team organisation/Leadership</h2>
+                <p>I consider myself an able leader when it comes to completing a task with a team as I can clearly see the path to a successful project. I can also operate under a manager and complete tasks in due time while working with my colleagues in
+                    harmony.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="mailto:vanekorvan01@gmail.com" target="_blank"><button id="mail">Mail me: vanekorvan01@gmail.com</button></a>
+        <a href="tel:+447909393791"><button id="tel">Call me: +447909393791</button></a>
+    </footer>
+</body>
+
+</html>

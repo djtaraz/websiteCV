@@ -1,0 +1,41 @@
+.main {
+    margin-top: 52px;
+    width: 95%;
+    overflow: auto;
+    background-color: oldlace;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-family: 'Lucida Sans', sans-serif;
+    flex: 1 1 auto;
+    padding-bottom: 50px;
+}
+
+.containHeading {
+    text-align: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 10vh;
+    margin-bottom: 0;
+    font-size: 2vw;
+}
+
+.containSummary {
+    border: black solid 2px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 5px;
+    background-color: royalblue;
+    color: oldlace;
+    font-size: 1.5vw;
+}
+
+.list {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border: black solid 2px;
+    background-color: royalblue;
+    color: oldlace;
+    text-align: left;
+    padding: 5px 5px;
+    font-size: 1.5vw;
+}

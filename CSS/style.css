@@ -91,6 +91,7 @@
         -webkit-transition: 200ms;
         transition: 200ms;
         outline: none;
+        cursor: pointer;
     }
     
     #tel {
@@ -104,6 +105,7 @@
         -webkit-transition: 200ms;
         transition: 200ms;
         outline: none;
+        cursor: pointer;
     }
     
     #mail:hover {
